@@ -9,15 +9,6 @@ public class ConstructiveToy extends Toy {
     private final String material; // The material of the constructive toy
 
     /**
-     * Gets the material of the constructive toy.
-     * 
-     * @return The material of the constructive toy
-     */
-    public String getMaterial() {
-        return material;
-    }
-
-    /**
      * Constructs a new ConstructiveToy object using a ConstructiveToyBuilder.
      *
      * @param builder The ConstructiveToyBuilder object to construct the
@@ -70,7 +61,7 @@ public class ConstructiveToy extends Toy {
             return true;
         }
 
-        if (obj == null || !(obj instanceof ConstructiveToy)) {
+        if (!(obj instanceof ConstructiveToy)) {
             return false;
         }
 

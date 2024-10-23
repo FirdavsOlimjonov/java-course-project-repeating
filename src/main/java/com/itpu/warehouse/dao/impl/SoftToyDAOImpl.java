@@ -28,16 +28,6 @@ public class SoftToyDAOImpl implements SoftToyDAO {
     }
 
     /**
-     * Constructor with a custom file path.
-     *
-     * @param path The file path to load soft toy data from
-     * @throws RuntimeException If an error occurs while accessing or reading the
-     */
-    public SoftToyDAOImpl(String path) {
-        this.filePath = path;
-    }
-
-    /**
      * Retrieves all soft toys from the database.
      *
      * @return A list containing all soft toys stored in the database

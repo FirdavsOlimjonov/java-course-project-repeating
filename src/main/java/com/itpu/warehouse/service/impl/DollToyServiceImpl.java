@@ -7,7 +7,7 @@ import com.itpu.warehouse.entity.DollToy;
 import com.itpu.warehouse.service.DollToyService;
 
 public class DollToyServiceImpl implements DollToyService {
-    private DollToyDAO dollToyDAO; // DAO for accessing and manipulating data of SoftToy objects
+    private final DollToyDAO dollToyDAO; // DAO for accessing and manipulating data of SoftToy objects
 
     /**
      * Constructor for creating a new instance of the SoftToyServiceImpl class.

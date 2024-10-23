@@ -11,7 +11,7 @@ import com.itpu.warehouse.entity.VehicleToy;
  * data of VehicleToy objects in the database.
  */
 public class VehicleToyServiceImpl implements VehicleToyService {
-    private VehicleToyDAO vehicleToyDAO; //
+    private final VehicleToyDAO vehicleToyDAO; //
 
     /**
      * Constructor for VehicleToyServiceImpl.

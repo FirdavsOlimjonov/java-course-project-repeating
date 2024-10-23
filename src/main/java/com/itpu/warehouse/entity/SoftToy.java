@@ -38,7 +38,6 @@ public class SoftToy extends Toy {
         /**
          * Sets the mass of the soft toy.
          * 
-         * @param mass
          * @return SoftToyBuilder
          */
         public SoftToyBuilder mass(double mass) {
@@ -75,7 +74,7 @@ public class SoftToy extends Toy {
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
-        if (obj == null || !(obj instanceof SoftToy))
+        if (!(obj instanceof SoftToy))
             return false;
         SoftToy softToy = (SoftToy) obj;
         return super.equals(obj) &&

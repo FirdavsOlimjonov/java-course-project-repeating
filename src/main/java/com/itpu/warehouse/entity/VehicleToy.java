@@ -37,7 +37,6 @@ public class VehicleToy extends Toy {
 
         /**
          * 
-         * @param numberOfWheels
          * @return VehicleToyBuilder
          */
         public VehicleToyBuilder numberOfWheels(int numberOfWheels) {
@@ -75,7 +74,7 @@ public class VehicleToy extends Toy {
     public boolean equals(Object obj) {
         if (this == obj)
             return true;
-        if (obj == null || !(obj instanceof VehicleToy))
+        if (!(obj instanceof VehicleToy))
             return false;
         VehicleToy vehicleToy = (VehicleToy) obj;
         return super.equals(obj) &&

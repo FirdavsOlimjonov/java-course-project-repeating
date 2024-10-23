@@ -10,7 +10,7 @@ import com.itpu.warehouse.entity.ConstructiveToy;
  * ConstructiveToyServiceImpl
  */
 public class ConstructiveToyServiceImpl implements ConstructiveToyService {
-    private ConstructiveToyDAO constructiveToyDAO; // DAO for accessing and manipulating data of SoftToy objects
+    private final ConstructiveToyDAO constructiveToyDAO; // DAO for accessing and manipulating data of SoftToy objects
 
     /**
      * Constructor for creating a new instance of the SoftToyServiceImpl class.

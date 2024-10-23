@@ -27,16 +27,6 @@ public class PuzzleToyDAOImpl implements PuzzleToyDAO {
     }
 
     /**
-     * Constructor with a custom file path.
-     *
-     * @param filePath The file path to load puzzle toy data from
-     * @throws RuntimeException If an error occurs while accessing or reading the
-     */
-    public PuzzleToyDAOImpl(String filePath) {
-        this.filePath = filePath;
-    }
-
-    /**
      * Retrieves all puzzle toys from the database.
      *
      * @return A list containing all puzzle toys stored in the database

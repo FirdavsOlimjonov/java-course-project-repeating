@@ -7,12 +7,10 @@ import com.itpu.warehouse.entity.ConstructiveToy;
 import com.itpu.warehouse.service.ConstructiveToyService;
 
 public class ConstructiveController implements ToyController {
-    private  ConstructiveToyService constructiveToyService; // Service class for constructive toys
+    private final ConstructiveToyService constructiveToyService; // Service class for constructive toys
 
     /**
      * Constructor for the class
-     * 
-     * @param constructiveToyService
      */
     public ConstructiveController(ConstructiveToyService constructiveToyService) {
         this.constructiveToyService = constructiveToyService; // Initialize the service

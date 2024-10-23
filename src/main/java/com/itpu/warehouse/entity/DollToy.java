@@ -9,15 +9,6 @@ public class DollToy extends Toy {
     private final Gender gender; // The gender of the doll toy
 
     /**
-     * Gets the gender of the doll toy.
-     * 
-     * @return The gender of the doll toy
-     */
-    public Gender getGender() {
-        return gender;
-    }
-
-    /**
      * Constructs a new DollToy object using a DollToyBuilder.
      *
      * @param builder The DollToyBuilder object to construct the DollToy
@@ -69,7 +60,7 @@ public class DollToy extends Toy {
             return true;
         }
 
-        if (obj == null || !(obj instanceof DollToy)) {
+        if (!(obj instanceof DollToy)) {
             return false;
         }
 

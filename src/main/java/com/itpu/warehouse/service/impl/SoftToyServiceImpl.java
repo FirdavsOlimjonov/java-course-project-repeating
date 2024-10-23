@@ -10,7 +10,7 @@ import com.itpu.warehouse.entity.SoftToy;
  * data of SoftToy objects in the database.
  */
 public class SoftToyServiceImpl implements SoftToyService {
-    private SoftToyDAO softToyDAO; // DAO for accessing and manipulating data of SoftToy objects
+    private final SoftToyDAO softToyDAO; // DAO for accessing and manipulating data of SoftToy objects
 
     /**
      * Constructor for creating a new instance of the SoftToyServiceImpl class.

@@ -37,7 +37,6 @@ public class PuzzleToy extends Toy {
         /**
          * Sets the difficulty of the puzzle toy.
          * 
-         * @param difficulty
          * @return PuzzleToyBuilder
          */
         public PuzzleToyBuilder difficulty(String difficulty) {
@@ -76,7 +75,7 @@ public class PuzzleToy extends Toy {
             return true;
         }
 
-        if (obj == null || !(obj instanceof PuzzleToy)) {
+        if (!(obj instanceof PuzzleToy)) {
             return false;
         }
 

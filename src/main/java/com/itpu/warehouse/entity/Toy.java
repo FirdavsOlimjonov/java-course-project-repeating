@@ -6,11 +6,11 @@ import java.util.Objects;
  * Abstract class representing a toy.
  */
 public abstract class Toy {
-    private String id; // The unique identifier of the toy
-    private String name; // The name of the toy
-    private String category; // The category of the toy
-    private double price; // The price of the toy
-    private int recommendedAge; // The recommended age for the toy
+    private final String id; // The unique identifier of the toy
+    private final String name; // The name of the toy
+    private final String category; // The category of the toy
+    private final double price; // The price of the toy
+    private final int recommendedAge; // The recommended age for the toy
 
     /**
      * Constructs a new Toy object using a Builder.

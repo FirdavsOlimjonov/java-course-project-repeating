@@ -17,7 +17,6 @@ import java.util.List;
 public class VehicleToyDAOImpl implements VehicleToyDAO {
     private final String DELIMITER = ","; // Adjust the delimiter as needed
     String filePath = "src/main/resources/vehicle_toys.csv"; // Adjust the file path with correct extension
-    BufferedReader reader;
 
     /**
      * Constructor with default file path.
@@ -26,16 +25,6 @@ public class VehicleToyDAOImpl implements VehicleToyDAO {
      * 
      */
     public VehicleToyDAOImpl() {
-    }
-
-    /**
-     * Constructor with a custom file path.
-     *
-     * @param path The file path to load vehicle toy data from
-     * @throws RuntimeException If an error occurs while accessing or reading the
-     */
-    public VehicleToyDAOImpl(String path) {
-        this.filePath = path;
     }
 
     /**

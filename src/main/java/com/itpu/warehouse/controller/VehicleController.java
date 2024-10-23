@@ -7,7 +7,7 @@ import com.itpu.warehouse.service.VehicleToyService;
 
 public class VehicleController implements ToyController {
 
-    private VehicleToyService vehicleToyService;
+    private final VehicleToyService vehicleToyService;
 
     public VehicleController(VehicleToyService vehicleToyService) {
         this.vehicleToyService = vehicleToyService;
