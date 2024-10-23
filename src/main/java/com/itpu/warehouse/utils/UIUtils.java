@@ -20,8 +20,8 @@ public class UIUtils {
   };
   public static boolean isExited = false;
   private static final String LINE = "------------------------------------------------------------------------";
-  private static final String NAME = "Nurmuahmmad";
-  private static final String EMAIL = "nurmuhammad_mamurjonov@student.itpu.uz";
+  private static final String NAME = "Firdavs";
+  private static final String EMAIL = "Firdavs_Olimjonov@student.itpu.uz";
 
   public static void showBrand() {
     System.out.println(
