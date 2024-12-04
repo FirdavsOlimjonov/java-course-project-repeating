@@ -29,9 +29,8 @@ public class Main implements Serializable {
 
   public static void main(String[] args) {
 
-    UIUtils.showCommands();
-
     while (!UIUtils.isExited) {
+      UIUtils.showCommands();
       String command = UIUtils.waitForCommand();
 
       if (command != null) {
